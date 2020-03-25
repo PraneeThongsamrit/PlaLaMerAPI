@@ -20,5 +20,5 @@ docker build -t plalamer-api .
 ```
 
 ```sh
-docker run -dit --name FumerAPI -p 3000:3000 -v "${pwd}:/app" plalamer-api
+docker run -dit --name FumerAPI -p 3001:3000 -v "${pwd}:/app" plalamer-api
 ```
